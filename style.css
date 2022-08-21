@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling header */
+
+#header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brand{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding: 6px;
+}
+
+#brand span{
+    color: rgba(2, 238, 255, 0.952);
+    margin-top: 6px;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#menu{
+    /* border: 1px solid white; */
+    margin-right: 10px; 
+    padding: 2px;
+}
+
+/* Styling main content */
+
+#container{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#interface{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#item1{
+    /* border: 1px solid red; */
+    height: 150px;
+    width: 150px;
+    margin-bottom: 1.8em;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#item2{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 220px;
+    padding: 8px;
+    background-color: rgb(235, 235, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#item2 img{
+    width: 50px;
+    display: none;
+}
+
+#item2 span{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#durat{
+    width: 120%;
+    margin-top: 1.2rem;
+}
+
+#tool{
+    margin-top: 1.1rem;
+}
+
+#tool i{
+    color: rgb(247, 0, 21);
+}
+
+#play{
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+}
+
+#songlist{
+    /* border: 1px solid green; */
+    height:fit-content;
+    width:95%;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 6px rgb(85, 82, 82);
+}
+
+.song{
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-bottom: 1px solid rgb(10, 9, 9);
+    width: 100%;
+    height: 50px;
+    padding: 0.5rem;
+    background-color: rgba(2, 201, 78, 0.3);
+    color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song:hover{
+    background-color:rgb(80, 74, 74);
+    color: white;
+}
+
+.song span{
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn{
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+/* Styling Footer */
+
+#footer{
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+    background-color: rgb(219, 221, 221);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer i{
+    margin: 1rem;
+}
